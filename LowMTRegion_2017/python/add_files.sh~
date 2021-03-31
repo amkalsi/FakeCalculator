@@ -1,0 +1,65 @@
+#!/bin/bash
+hadd Data_SE.root     OutputFiles/Con*SE*root
+hadd Data_SP.root     OutputFiles/Con*Data_SPhoton_*.root
+hadd Data.root       Data_SE.root Data_SP.root
+hadd DYJets.root      OutputFiles/Con*DY_inc_*root
+hadd DY_1000.root     OutputFiles/Con*DY_1000.root
+hadd DY_1500.root     OutputFiles/Con*DY_1500.root
+hadd DY_2000.root     OutputFiles/Con*DY_2000.root
+hadd DY_3000.root OutputFiles/Con*DY_3000.root
+hadd DY_400.root  OutputFiles/Con*DY_400.root
+hadd DY_500.root  OutputFiles/Con*DY_500.root
+hadd DY_700.root  OutputFiles/Con*DY_700.root
+hadd DY_800.root  OutputFiles/Con*DY_800.root
+hadd -f TTSemi.root  OutputFiles/Con*TTSemi_*.root
+hadd -f TTHadr.root  OutputFiles/Con*TTHadr_*.root
+hadd -f TT2L2Nu.root OutputFiles/Con*TT_inc*.root 
+hadd -f WJets.root   OutputFiles/Con*WJetsinc*.root
+hadd -f WW.root      OutputFiles/Con*WW_inc*.root
+hadd -f WZ.root      OutputFiles/Con*ZZ.root
+hadd -f ZZ.root      OutputFiles/Con*WZ.root
+hadd -f TT_1200.root OutputFiles/Con*TT_1200.root
+hadd -f TT_1800.root OutputFiles/Con*TT_1800.root
+hadd -f TT_500.root  OutputFiles/Con*TT_500.root
+hadd -f TT_800.root  OutputFiles/Con*TT_800.root
+hadd -f ST_antitop.root OutputFiles/Con*ST_antitop_*root
+hadd -f ST_top.root     OutputFiles/Con*ST_top*.root
+hadd -f WW_600.root      OutputFiles/Con*WW_600_*root
+hadd -f WW_1200.root     OutputFiles/Con*WW_1200*root
+hadd -f WW_2500.root      OutputFiles/Con*WW_2500*.root
+hadd -f WW_200.root      OutputFiles/Con*WW_200_*root
+hadd -f notCutDYJets.root  OutputFiles/Con*notCutDY*.root
+hadd -f notCutTT2L2Nu.root OutputFiles/Con*notCutTT*.root
+hadd -f notCutWW.root     OutputFiles/Con*notCutWW*.root
+hadd -f WZ_2l2q.root       OutputFiles/Con*WZTo2L2Q*.root
+hadd -f WZ_3lnu.root       OutputFiles/Con*WZTo3LNu*.root
+hadd -f ZZ_2l2nu.root        OutputFiles/Con*ZZTo2L2Nu*.root
+hadd -f ZZ_2l2q.root                        OutputFiles/Con*ZZTo2L2Q*.root
+hadd -f ZZ_4l.root          OutputFiles/Con*ZZTo4L*.root
+hadd -f  ZP_1600.root   OutputFiles/Con0ZP_1600.root
+hadd -f  ZP_1800.root   OutputFiles/Con0ZP_1800.root
+hadd -f  ZP_1500.root   OutputFiles/Con0ZP_1500.root
+hadd -f  ZP_1400.root   OutputFiles/Con0ZP_1400.root
+hadd -f  ZP_1900.root   OutputFiles/Con0ZP_1900.root
+hadd -f  ZP_1700.root   OutputFiles/Con0ZP_1700.root
+hadd -f  ZP_2600.root   OutputFiles/Con0ZP_2600.root
+hadd -f  ZP_1200.root   OutputFiles/Con0ZP_1200.root
+hadd -f  ZP_700.root    OutputFiles/Con0ZP_700.root
+hadd -f  ZP_2800.root   OutputFiles/Con0ZP_2800.root
+hadd -f  ZP_5500.root   OutputFiles/Con0ZP_5500.root
+hadd -f  ZP_3500.root   OutputFiles/Con0ZP_3500.root
+hadd -f  ZP_3000.root   OutputFiles/Con0ZP_3000.root
+hadd -f  ZP_2400.root   OutputFiles/Con0ZP_2400.root
+hadd -f  ZP_1000.root   OutputFiles/Con0ZP_1000.root
+hadd -f  ZP_4000.root   OutputFiles/Con0ZP_4000.root
+hadd -f  ZP_2000.root   OutputFiles/Con0ZP_2000.root
+hadd -f  ZP_2200.root   OutputFiles/Con0ZP_2200.root
+hadd -f  ZP_1300.root   OutputFiles/Con0ZP_1300.root
+hadd -f  ZP_6000.root   OutputFiles/Con0ZP_6000.root
+hadd -f  ZP_600.root    OutputFiles/Con0ZP_600.root
+hadd -f  ZP_4500.root   OutputFiles/Con0ZP_4500.root
+hadd -f  ZP_900.root    OutputFiles/Con0ZP_900.root
+hadd -f  ZP_5000.root   OutputFiles/Con0ZP_5000.root
+hadd -f  ZP_500.root    OutputFiles/Con0ZP_500.root
+hadd -f  ZP_800.root    OutputFiles/Con0ZP_800.root
+hadd -f  ZP_1100.root   OutputFiles/Con0ZP_1100.root
